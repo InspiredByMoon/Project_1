@@ -88,6 +88,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/*The following CSS resets all the styles, and adds some defaults*/
+
+button {
+    display: inline-block;
+    appearance: none;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none
+}
+
+/*My css*/
+
 body {
     margin: 0 auto;
     width: 1005px;
@@ -96,10 +111,10 @@ body {
 }
 
 header{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
-div{
+#logo {
     float: left;
 }
 
@@ -134,7 +149,8 @@ h1 {
     font-weight: 300;
     line-height: 1.875em;
     max-width: 390px;
-    margin-top: 48px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 
 }
 
@@ -142,15 +158,29 @@ p, h1 {
     margin: 0;
 }
 
+#slide1-CTA-button {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #464646;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    padding: 15px 20px;
+}
+
+#slide1-CTA-button-icon{
+    padding-left: 12px;
+}
 
 
 
 
 
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
+                                                                                                                                        /* ==========================================================================
+                                                                                                                                           Helper classes
+                                                                                                                                           ========================================================================== */
 
 /*
  * Hide visually and from screen readers:
