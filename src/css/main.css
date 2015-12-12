@@ -105,13 +105,14 @@ button:focus {
 
 body {
     margin: 0 auto;
-    width: 1005px;
+    width: 1010px;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffcc33;
+    background-color: #FFC038;
 }
 
 header{
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 #logo {
@@ -121,7 +122,6 @@ header{
 nav{
     margin-left: auto;
     max-width: 620px;
-    margin-bottom: 80px;
 }
 
 nav ul {
@@ -151,7 +151,6 @@ h1 {
     max-width: 390px;
     margin-top: 35px;
     margin-bottom: 30px;
-
 }
 
 p, h1 {
@@ -173,10 +172,25 @@ p, h1 {
     padding-left: 12px;
 }
 
+#slide1-CTA-button:hover {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #606060;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    padding: 15px 20px;
+}
 
+#slide1-mac_iphone{
+    float: right;
+    padding-top: 65px;
+}
 
-
-
+#slide1-content{
+display: inline-block;
+}
 
                                                                                                                                         /* ==========================================================================
                                                                                                                                            Helper classes
