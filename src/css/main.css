@@ -105,7 +105,12 @@ button:focus {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFC038;
+
+}
+
+#slide1-wrapper{
+    margin: 0 auto;
+    width: 1010px;
 }
 
 header{
@@ -163,8 +168,7 @@ p, h1 {
 }
 
 #fullpage {
-    margin: 0 auto;
-    width: 1010px;
+
 }
 
 #slide1-CTA-button {
@@ -202,6 +206,9 @@ p, h1 {
 display: inline-block;
 }
 
+#slide2{
+
+}
                                                                                                                                         /* ==========================================================================
                                                                                                                                            Helper classes
                                                                                                                                            ========================================================================== */
