@@ -104,14 +104,12 @@ button:focus {
 /*My css*/
 
 body {
-    margin: 0 auto;
-    width: 1010px;
     font-family: 'Roboto', sans-serif;
     background-color: #FFC038;
 }
 
 header{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 70px;
 }
 
@@ -131,11 +129,18 @@ nav ul {
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     font-weight: bold;
     font-size: 0.875em;
     color: #333333;
+}
+
+nav ul li:hover {
+    float: left;
+    font-weight: bold;
+    font-size: 0.875em;
+    color: white;
 }
 
 h1 {
@@ -155,6 +160,11 @@ h1 {
 
 p, h1 {
     margin: 0;
+}
+
+#fullpage {
+    margin: 0 auto;
+    width: 1010px;
 }
 
 #slide1-CTA-button {
