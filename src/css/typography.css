@@ -1,0 +1,10 @@
+h1 {
+    font-size: 2.625em;
+    font-weight: bold;
+    color: white;
+}
+
+p, h1 {
+    margin: 0;
+}
+

@@ -1,0 +1,33 @@
+#slide2-wrapper{
+    margin: 0 auto;
+    width: 1010px;
+}
+
+#slide2-button-wrapper{
+    margin-top: 100px;
+}
+
+#slide2-CTA-button {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #464646;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    padding: 15px 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+#slide2-CTA-button:hover {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #606060;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    padding: 15px 60px;
+    margin:  0 auto;
+}

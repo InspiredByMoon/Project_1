@@ -50,6 +50,7 @@ html.fp-enabled,
     table-layout:fixed;
     width: 100%;
 }
+
 .fp-tableCell {
     display: table-cell;
     vertical-align: middle;
